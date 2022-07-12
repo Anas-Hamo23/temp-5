@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    color: #616161;
+}
+
+#se1 {
+    background-color: #FFB30E;
+    width: 100%;
+    height: 100vh;
+    margin: 50px 0px;
+}
+
+main section div form {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main section div form input[type="text"] {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: rgba(238, 238, 238, 0.44);
+    border-radius: 10px;
+}
+
+.my-add {
+    display: inline-block;
+    background-color: rgba(221, 221, 221, 0.44);
+    border-radius: 10px;
+}
+
+main section div form input[type="submit"] {
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+main section div form input[type="submit"]:hover {
+    color: #F17228;
+    background-color: rgba(241, 114, 40, 0.15);
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+#se2 .container .row .my-col {
+    margin-bottom: 40px;
+}
+
+#se2 a div h5 {
+    color: #F17228;
+    background-color: rgba(241, 114, 40, 0.15);
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+#se2 a:hover {
+    color: black;
+}
+
+#se2 a img {
+    border-radius: 15px;
+}
+
+#se2 a div {
+    margin-top: 20px;
+}
+
+#se3 {
+    margin-bottom: 200px;
+    height: 400px;
+    background: linear-gradient( 180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+
+#se3 h1 {
+    padding-top: 60px;
+    color: #F17228;
+}
+
+#se4 span {
+    color: #FFB30E;
+}
+
+#se4 img {
+    border-radius: 15px;
+}
+
+#se5 div p {
+    color: #4db95f;
+    background-color: #ebf5e2;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 10px 0px 10px 20px;
+}
+
+#se5 img {
+    border-radius: 15px;
+}
+
+footer a {
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+hr {
+    color: white;
+}
+
+#se1 hr {
+    color: #FFB30E;
+    height: 2px;
+}
+
+footer form input[type="submit"] {
+    border: none;
+    color: white;
+    background-color: #FFB30E;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+footer form input[type="submit"]:hover {
+    color: black;
+}
+
+footer form input[type="email"] {
+    width: 300px;
+    height: 35px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+
+footer form div {
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+header .container nav .container-fluid a {
+    /* color: linear-gradient( 50deg, #fb3c00, #ffb800); */
+    color: #ffb800;
+}
+
+svg {
+    color: #ffb800;
+}
+
+footer .follow svg {
+    color: white;
+}
+
+header form input[type="search"] {
+    border: none;
+    background-color: #eef;
+}
+
+header form .my-search {
+    background-color: #eef;
+    border-radius: 10px;
+}
+
+header a span {
+    color: #ffb800;
+}
+
+#se6 {
+    background-image: url(./img/gallery/cta-one-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#se6 .my-row {
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #ffb800;
+    align-items: center;
+}
+
+#se6 .my-row h3 {
+    color: #ffb800;
+}
+
+#se6 h4 {
+    color: #ffb800;
+}
+
+#se7 span {
+    color: #ffb800;
+}
+
+#se8 {
+    background-image: url(./img/gallery/cta-two-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.my-hero {
+    transition: 0.5s;
+}
+
+.my-hero:hover {
+    padding-bottom: 80px;
+    transition: 0.5s;
+}
+
+.my-live:hover {
+    padding: 20px;
+    border: 1px solid #ffb800;
+    border-radius: 10px;
+}
+
+#se0 {
+    display: none;
+}
+
+.divform {
+    position: relative;
+    z-index: 1000;
+    /* position: fixed; */
+}
+
+.form-login {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+.my-Btnx {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+#se0 form {
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 300px;
+}
+
+#se0 svg {
+    margin-left: 7px;
+}
+
+#se0 form div {
+    /* border: 1px solid black; */
+    background-color: rgba(238, 238, 238, 0.39);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#se0 form .div-form {
+    background-color: white;
+}
+
+#se0 form input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 40px;
+    margin-left: 7px;
+}
+
+#se0 form input[type="submit"] {
+    background-color: #ffb800;
+    border-radius: 10px;
+}
+
+
+/* 
+#se0 form input[type="submit"]:hover {
+    color: #F17228;
+    background-color: rgba(241, 114, 40, 0.15);
+    border-color: transparent;
+    border-radius: 5px;
+} */
+
+#se0 form div .divsub {
+    background-color: white;
+}
+
+#se0 label {
+    color: #ffb800;
+}
+
+#sejs div img {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+#sejs .div11 {
+    display: inline-block;
+}
+
+#sejs .div-img0 {
+    display: block;
+}
+
+#sejs .div-img1 {
+    display: none;
+}
+
+#view1 {
+    display: none;
+}
